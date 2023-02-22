@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+   }
+
+   @font-face {
+    font-family:'Nunito';
+    src: url(../Fonts/Nunito-VariableFont_wght.ttf);}
+
+    @font-face{
+        font-family:'Noto Sans';
+        src: url(../Fonts/NotoSans-Bold.ttf);}
+
+   body{
+     background:#FFFFFF;
+     margin: 0px;
+     padding: 0px;
+     overflow-x: hidden;
+     z-index: 4;
+   }
+
+   .is {
+    height: 100vh;
+    display: flex;
+    background:linear-gradient(111.23deg, #E9F7FF 9.95%, #FFDBD5 85.17%);
+   }
+
+   .is-box{
+    height: 1156px;
+    margin-inline: auto;
+   }
+
+   .header{
+    position: absolute;
+    display: flex;
+    padding: 10px;
+    width: 1200px;
+    height: 81px;
+    top: 51px;
+    left: 120px;
+   }
+
+   .logo{
+    display: flex;
+    width: 211px;
+    height: 81.16px;
+   }
