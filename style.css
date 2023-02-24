@@ -18,10 +18,12 @@
      z-index: 4;
    }
 
+   .div-1  {height: 1101px;
+    background-image: url(./images/Banner-Image.png);}
+
    .is {
     height: 100vh;
     display: flex;
-    background-image: url(./images/Banner-Image.png);
    }
 
    .is-box{
@@ -293,6 +295,59 @@
     border: 1.5px solid #292930;
     border-radius: 7px;
     }
+
+.div-2 {background-color: #292930;}
+
+.content-2   {display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 90px;
+    width: 1200px;
+    height: 1233px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 360px;
+    padding-top: 173px;
+    }
+
+
+.span-3  {color: #D0D0D0}
+
+.span-4  {color: #FEC90C}
+
+.span-5   {width: 620px;
+    height: 88px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
+.title-2   {margin-left: 39px;}
+
+.icon   {width: 88px;
+    height: 88px;}
+
+.btn5   {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px 18px;
+    gap: 10px;
+    width: 174px;
+    height: 62px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+
 
     
 
