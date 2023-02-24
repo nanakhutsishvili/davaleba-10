@@ -19,12 +19,23 @@
    }
 
    .div-1  {height: 1101px;
-    background-image: url(./images/Banner-Image.png);}
+    background: #D9D9D9;
+    overflow: hidden;
+    }
 
-   .is {
-    height: 100vh;
-    display: flex;
-   }
+.div-11   { width: 1703px;
+    height: 801px;
+    margin-left: 126px;
+    padding-left: 234px;}
+
+   .back   {width: 1208px;
+    height: 1208px;
+    margin-left: 1075px;
+    top: -198px;
+    background: #F4F6FB;
+    border-radius: 50%;
+    position: relative;
+    }
 
    .is-box{
     align-items: center;
@@ -33,14 +44,13 @@
    }
 
    .header {
-    position: absolute;
     display: flex;
     padding: 10px;
     width: 1200px;
     height: 81px;
-    top: 51px;
-    left: 358px;
     width: 1200px;
+    justify-content: space-between;
+    margin-inline: auto; 
    }
 
    .row {
@@ -69,11 +79,9 @@
 
 .menu{
     display: flex;
-    position: absolute;
     z-index: 5;
-    margin-inline: auto;
     align-items: center;
-    margin-left: 120px;
+    margin-left: auto;
 }
 
 .menu-item{
@@ -103,12 +111,11 @@
   .dropdown-content  {
     padding: 20px;
     display: none;
-    position: absolute;
     z-index: 1;
     min-width: 215px;
     height: 92px;
     box-shadow: 0px 343.472px 343.472px rgba(52, 41, 39, 0.08);
-
+    max-width: 1703px;
     background-color: #FFFFFF;
     border-radius: 14px;
 }
@@ -239,7 +246,6 @@
     position: absolute;
     width: 740px;
     height: 470px;
-    left: 360px;
     top: 300px;
   }
 
