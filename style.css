@@ -23,18 +23,19 @@
     overflow: hidden;
     }
 
-.div-11   { width: 1703px;
+.div-11   {
+    width: 1200px;
     height: 801px;
-    margin-left: 126px;
-    padding-left: 234px;}
+    margin: 0 auto;}
 
-   .back   {width: 1208px;
+   .back   {
+    width: 1208px;
     height: 1208px;
-    margin-left: 1075px;
+    right: -365px;
     top: -198px;
     background: #F4F6FB;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
     }
 
    .is-box{
