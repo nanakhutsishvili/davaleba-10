@@ -21,6 +21,7 @@
    .div-1  {height: 1101px;
     background: #D9D9D9;
     overflow: hidden;
+    position: relative;
     }
 
 .div-11   {
@@ -336,6 +337,10 @@
     order: 1;
     flex-grow: 0;}
 
+.heading     {width: 1200px;}
+
+.heading-1   {width: 100%;}
+
 .title-2   {margin-left: 39px;}
 
 .icon   {width: 88px;
@@ -343,7 +348,7 @@
 
 .btn5   {display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     padding: 17px 24px 18px;
     gap: 10px;
@@ -351,9 +356,103 @@
     height: 62px;
     background: #FFFFFF;
     border-radius: 7px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;}
+    margin-left: auto;
+    margin-top: auto;
+    }
+
+
+
+
+    .services2-content{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .services-content_1{
+    padding: 41px 39px;
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+    }
+    
+    .services-content_2{
+    margin:0px 72px ;
+    padding: 41px 39px;
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+    }
+    
+    .services-content_1_foto{
+    width: 153px;
+    height: 153px;
+    padding: 35px;
+    background: #292930;
+    border-radius: 100px;
+    margin-bottom: 26px;
+    }
+    
+    .content_1_text1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    
+    color: #FFFFFF;
+    }
+    
+    p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    
+    color: #D0D0D0;
+    }
+    
+    .services-content_1_btn{
+    margin-top: 26px;
+    width: 266px;
+    height: 62px;
+    padding: 17px 70px 18px;
+    background: #FFDC60;
+    border-radius: 7px;
+    }
+    
+    .btn6{
+    background-color: transparent;
+    border: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: capitalize;
+    
+    color: #292930;
+    }
+    
+    .services-content_2_btn{
+    margin-top: 26px;
+    width: 266px;
+    height: 62px;
+    padding: 17px 70px 18px;
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border-radius: 7px;
+    }
+    
+    .btn7{
+    background-color: transparent;
+    border: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: capitalize;
+    
+    color: #525255;
+    }
 
 
     
