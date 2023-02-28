@@ -19,7 +19,7 @@
    }
 
    .div-1  {height: 1101px;
-    background: #D9D9D9;
+    background-image: url("images/Banner-Image.png");
     overflow: hidden;
     position: relative;
     }
@@ -28,16 +28,6 @@
     width: 1200px;
     height: 801px;
     margin: 0 auto;}
-
-   .back   {
-    width: 1208px;
-    height: 1208px;
-    right: -365px;
-    top: -198px;
-    background: #F4F6FB;
-    border-radius: 50%;
-    position: absolute;
-    }
 
    .is-box{
     align-items: center;
@@ -304,7 +294,10 @@
     border-radius: 7px;
     }
 
-.div-2 {background-color: #292930;}
+.div-2 {background-color: #292930;
+        height: 1500px;
+        padding-top: 173px;
+        padding-bottom: 173px;}
 
 .content-2   {display: flex;
     flex-direction: column;
@@ -317,7 +310,6 @@
     order: 0;
     flex-grow: 0;
     margin-left: 360px;
-    padding-top: 173px;
     }
 
 
@@ -456,6 +448,497 @@
 
 
     
+    .mark-box{
+        margin-inline: auto;
+        margin-top: 200px;
+    }
+    
+    .mark-heading{
+        text-align: center;
+    }
+    
+    .mark-content{
+        margin-top: 125px;
+        display: flex;
+    }
+    
+    .dolar {
+        width: 88px;
+        height: 88px;
+        background-color: #FFDC60;
+        border-radius: 100px;
+        padding: 30px;
+        margin-bottom: 34px;
+        align-items: center;
+        }
+
+        .mark-heading-linie{
+        color:  #5956E8;
+        }
+    
+    .mark-heading-text{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 156.5%;
+    color: #292930;
+    
+    letter-spacing: 0.135em;
+    text-transform: uppercase;
+        }
+    
+        .mark-heading-text1{
+        margin-top: 14px;
+        }
+    
+        .mark-heading-text2{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 110.5%;
+        
+        color: #292930;  
+        }
+    
+    .mark-pricing{
+        width: 389px;
+        height: 554px;
+        padding: 45px 38px;
+    
+        background: #F7F7F7;
+        border: 1px solid #E2E2E2;
+        border-radius: 10px;  
+    }
+    
+    .mark-prise{
+        display: flex;
+        margin-inline: auto;
+    }
+    
+    .mark-prise-title{
+        margin-left: 34px;
+    }
+    
+    .starter{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 110.5%;
+        
+        color: #292930;
+        margin-bottom: 7px; 
+    }
+    
+    .mark-prise-title-nummer{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    
+    color: #292930;
+    }
+    
+    
+    .mark-prise-title-month{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #555555;
+    }
+    
+    .navbar{
+        margin-top: 30px;
+    }
+    
+    .points{
+    border: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 244%;
+    
+    color: #555555;
+    }
+    
+    .points1{
+    border: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 244%;
+    
+    color: #FFFFFF;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .navbar-btn{
+    width: 313px;
+    height: 64px;
+    margin-top: 30px;
+    padding: 17px 92px;
+    background: #292930;
+    border-radius: 7px;
+    }
+    
+    .btn7{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    border: none;
+    background-color: transparent;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+    }
+    
+    .navbar-btn10{
+        width: 313px;
+        height: 64px;
+        margin-top: 30px;
+        padding: 17px 92px;
+        background: #F6F6F6;
+        border-radius: 7px;
+    }
+    
+    .btn10{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    border: none;
+    background-color: transparent;
+    text-transform: capitalize;
+    
+    color: #292930;
+    }
+    
+    .mark-pricing1{
+        width: 389px;
+        height: 554px;
+        padding: 45px 38px;
+        margin: 0px 17px;
+    
+        background: #292930;
+        border: 1px solid #E2E2E2;
+        border-radius: 10px;  
+    }
+    
+    .mark-prise-btn{
+    width: 89px;
+    height: 40px;
+    position: absolute;
+    left: 890px;
+    top: 3010px;
+    padding: 8px 2px;
+    background: #FFDC60;
+    border-radius: 9px;
+    }
+    
+    .btn8{
+    border: none;
+    background-color: transparent;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+    color: #292930;
+    }
+    
+    
+    .banner-footer-box{
+        margin-inline: auto;
+        background: #292930;
+        width: 100%;
+        display: flex;
+    }
+    
+    .footer{
+        display: flex;
+        margin-inline: auto;
+    }
+    
+    .footer-card{
+        background: #3C3C45;
+        border-radius: 7px;
+        padding: 49px 53px;
+        width: 399px;
+        height: 652.16px;
+    }
+    
+    .footer-img1{
+        margin-top: 49px;
+        margin-bottom: 37.93px;
+    }
+    
+    .footer-title{
+        margin-top: 29.77;
+        margin-bottom: 18px;
+    }
+    
+    .footer-title1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    
+    color: #FFFFFF;
+    }
+    
+    .footer-title2{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    
+    color: #D0D0D0;
+    }
+    
+    .footer-btn{
+    width: 293px;
+    height: 62px;
+    background: #5B5B61;
+    border-radius: 7px;
+    }
+    
+    .btn15{
+    margin-top: 16px;
+    margin-left: 26px;
+    border: none;
+    background-color: transparent;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    
+    text-transform: capitalize;
+    color: #FFFFFF;
+    }
+    
+    .btn16{
+    margin-top: 15.58px;
+    margin-left: 106px;
+    border: none;
+    background-color: transparent;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    
+    text-transform: capitalize;
+    color: #292930;
+    }
+    
+    .footer-btn1{
+    margin-top: 18px;
+    width: 293px;
+    height: 62px;
+    background: #FFDC60;
+    border-radius: 7px;
+    }
+    
+    .footer-content{
+        margin-left: 99px;
+    }
+    
+    .addresse{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        margin-bottom: 30px;
+    
+        width: 662px;
+        height: 152px;
+    }
+    
+    .addresse-box{
+    margin-right: 110px;
+    width: 255px;
+    height: 152px;
+    }
+
+    .isa   {width: 100%;
+    text-align: center;}
+    
+    .phone{
+        margin-bottom: 17px;
+    }
+    
+    .phone-text{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    
+    color: #FFFFFF;
+    }
+    
+    .phone-nummer{
+    width: 255px;
+    height: 62px;
+    padding: 12px 20px;
+    background: #3C3C45;
+    border-radius: 7px;
+    }
+    
+    .btn17{
+        background-color: transparent;
+        border: none;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 156.5%;
+    
+    color: #FFDC60;
+    }
+    
+    .email{
+        margin-top: 17px;
+    }
+    
+    .btn18{
+        border: none;
+    background-color: transparent;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156.5%;
+    
+    color: #FFFFFF;
+    }
+    
+    .addresse-box1{
+        width: 297px;
+    height: 152px;
+    }
+    
+    .location{
+        margin-bottom: 20px;
+    }
+    
+    .location1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    
+    color: #FFFFFF;
+    }
+    
+    .location2{
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156.5%;
+        
+        color: #FFFFFF;
+    }
+    
+    .location3{
+    margin-top: 20px;
+    width: 68px;
+    height: 28px;
+    }
+    
+    .btn19{
+    border: none;
+    background-color: transparent;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156.5%;
+    
+    text-decoration-line: underline;
+    color: #FFDC60;
+    }
+    
+    .features-navbar{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 0px;
+        margin: 50px 0px;
+    }
+    
+    .navbar-Uitility-Pages{
+    height: 288px;
+    margin: 0px 111px;
+    }
+    
+    .Uitility-Pages{
+        margin-bottom: 30px;
+    }
+    
+    .navbar-Follows{
+        height: 288px;
+    }
+    
+    .Follows{
+        margin-bottom: 30px;
+    }
+    
+    .pages{
+        margin-bottom: 30px;
+    }
+    
+    .pages6{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 211.5%;
+    
+    color: #FFFFFF;
+    }
+    
+    .pages2{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110.5%;
+    color: #FFFFFF;
+    }
+    
+    .copyright{
+    margin-top: 17px;
+    height: 38px;
+    }
+    
+    .copy{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 211.5%;
+    
+    color: #FFFFFF;
+    }
 
 
-  
+
+
+
