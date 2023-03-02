@@ -469,7 +469,7 @@
         border-radius: 100px;
         padding: 30px;
         margin-bottom: 34px;
-        align-items: center;
+        position: center;
         }
 
         .mark-heading-linie{
