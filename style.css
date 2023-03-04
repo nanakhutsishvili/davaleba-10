@@ -10,15 +10,15 @@
         font-family:'Noto Sans';
         src: url(../Fonts/NotoSans-Bold.ttf);}
 
-   body{
-     background:#FFFFFF;
-     margin: 0px;
-     padding: 0px;
-     overflow-x: hidden;
-     z-index: 4;
-   }
+body{
+    background:#FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    z-index: 4;
+}
 
-   .div-1  {height: 1101px;
+.div-1  {height: 1101px;
     background-image: url("images/Banner-Image.png");
     overflow: hidden;
     position: relative;
@@ -29,13 +29,13 @@
     height: 801px;
     margin: 0 auto;}
 
-   .is-box{
+.is-box{
     align-items: center;
     width: 100%;
     margin-inline: auto;
-   }
+    }
 
-   .header {
+.header {
     display: flex;
     width: 1200px;
     height: 81px;
@@ -43,21 +43,21 @@
     justify-content: space-between;
     margin-inline: auto; 
     margin-top: 70px;
-   }
+    }
 
-   .row {
+.row {
     display: flex;
     width: 211px;
     height: 81.16px;
-   }
+    }
 
 
-   .logo1{
+.logo1{
     position: absolute;
     margin-left: 35px;
     margin-top: -8px;
     margin-right: 250px;
-   }
+    }
 
 .promote{
     font-family: 'Nunito';
@@ -666,7 +666,7 @@
     }
     
     
-    .banner-footer-box{
+    .div4 {
         margin-inline: auto;
         background: #292930;
         width: 100%;
@@ -676,6 +676,7 @@
     .footer{
         display: flex;
         margin-inline: auto;
+        color: #292930;
     }
     
     .footer-card{
