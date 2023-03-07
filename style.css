@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: 'Nunito';
-    src: url(../Fonts/Nunito-VariableFont_wght.ttf);
+    src: url(./fonts/nunito.ttf);
 }
 
 @font-face {
     font-family: 'Noto Sans';
-    src: url(../Fonts/NotoSans-Bold.ttf);
+    src: url(./fonts/nunito.ttf);
 }
 
 body {
@@ -530,6 +530,7 @@ p {
     position: relative;
     align-items: center;
     margin-inline: auto;
+    flex-direction: column;
 }
 
 .mark-content {
