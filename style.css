@@ -594,6 +594,8 @@ p {
     margin-inline: auto;
 }
 
+.class  {display: flex;}
+
 .mark-prise-title {
     margin-left: 34px;
 }
@@ -625,12 +627,16 @@ p {
     color: #292930;
 }
 
+.class   {width: 100%;}
+
 .mark-prise-title-nummer-2 {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 900;
     font-size: 50px;
     color: #FFFFFF;
+    width: auto;
+    max-height: 20px;
 }
 
 
@@ -673,7 +679,6 @@ p {
     font-weight: 400;
     font-size: 18px;
     line-height: 244%;
-
     color: #FFFFFF;
 }
 
@@ -739,12 +744,11 @@ a {
 .mark-prise-btn {
     width: 89px;
     height: 40px;
-    position: absolute;
     left: 890px;
-    top: 3010px;
     padding: 8px 2px;
     background: #FFDC60;
     border-radius: 9px;
+    margin-left: 50px;
 }
 
 .btn8 {
@@ -755,7 +759,6 @@ a {
     font-weight: 500;
     font-size: 15px;
     text-transform: uppercase;
-
     color: #292930;
 }
 
